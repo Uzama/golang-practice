@@ -43,12 +43,17 @@ func main() {
 		var val float64
 
 		if _, err := fmt.Fscanln(os.Stdin, &val); err != nil {
-			panic(err)
+			break
 		}
 
 		sum += val
 		n++
-
-		fmt.Println(sum / float64(n))
 	}
+
+	if n == 0 {
+		fmt.Fprintln(os.Stderr, "no values")
+		os.Exit(-1)
+	}
+
+	fmt.Println("average is: ", sum/float64(n))
 }
