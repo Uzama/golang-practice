@@ -21,7 +21,7 @@ const (
 	g uint8 = l & 0x7
 )
 
-// run the program using command: ./output < num.txt
+// run the program using command: ./output < num.txt or cat num.txt | ./output
 func main() {
 	d := 6 // only inside function
 	e := 6.4
