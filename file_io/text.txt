@@ -1,0 +1,4 @@
+printing a line to standard output
+printing to error output
+Max: 8, Min: 3
+write to std err

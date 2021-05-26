@@ -1,0 +1,24 @@
+printing a line to standard output
+my struct: {Name:Uzama Age:23}
+hello "hi"
+value: true
+value: 4.568
+|    4|00005|6    |    7|
+value: [4 5 6], type: []int, special: []int{4, 5, 6}
+value: {Uzama 23}, type: main.S, special: main.S{Name:"Uzama", Age:23}
+value: ['a' 'e' 't'], type: [3]int32, special: ['a' 'e' 't']
+value: {"Uzama" '\x17'}, type: main.S, special: {`Uzama` '\x17'}
+value: map[a:1 n:2], type: map[string]int, special: map[string]int{"a":1, "n":2}
+value: map[a:1 n:2], type: map[string]int, special: map[string]int{"a":1, "n":2}
+value: map["a":'\x01' "n":'\x02'], type: map[string]int, special: map[`a`:'\x01' `n`:'\x02']
+value: "Hello World"
+My Name is Zaid
+I am 20 is Old
+Hi I guys
+
+I am Good
+printing a line to standard output
+printing to error output
+Max: 8, Min: 3
+write to std err
+
