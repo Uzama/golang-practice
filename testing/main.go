@@ -1,14 +1,12 @@
 package main
 
-import "fmt"
-
 type S struct {
 	Name string
 	Age  int
 }
 
 func main() {
-	a := []int{4, 5, 3, 1, 2}
+	a := [...]int{4, 5, 3, 1, 2}
 
 	b := []*int{}
 
@@ -16,13 +14,10 @@ func main() {
 		b = append(b, &a[i])
 	}
 
-	for _, j := range b {
-		fmt.Println(*j)
+	for range b {
 	}
 
-	val := process()
-
-	fmt.Println(*val)
+	_ = process()
 }
 
 func get() *S {
